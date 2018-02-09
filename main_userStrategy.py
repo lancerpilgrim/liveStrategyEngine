@@ -34,5 +34,5 @@ if __name__ == "__main__":
     # DualThrust追涨杀跌策略
 
     # 请不要跑userStrategy里面的策略，因为历史数据现在是Mock出来的
-    #strat = BaseLiveStrategyEngine(DualThrust, datetime.datetime.now(), 0.1, 30, dailyExitTime="23:30:00")
-    #start_strat(strat)
+    strat = BaseLiveStrategyEngine(DualThrust, datetime.datetime.now(), 0.1, 30, dailyExitTime="23:30:00")
+    start_strat(strat)

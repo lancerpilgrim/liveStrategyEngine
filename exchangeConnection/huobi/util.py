@@ -67,7 +67,7 @@ request
 '''
 
 
-def httpRequest(url, params):
+def httpRequest(url, params, method="GET"):
     '''
     postdata = urllib.parse.urlencode(params)
     postdata = postdata.encode('utf-8')
@@ -87,7 +87,11 @@ def httpRequest(url, params):
 
     postdata = urllib.parse.urlencode(params)
     # postdata = postdata.encode('utf-8')
-    response = requests.post(url, postdata, headers=headers, timeout=20)
+    print(url)
+    if method == "GET":
+        response = requests.post(url, postdata, headers=headers, timeout=20)
+    else:
+        response = requests.post(url, postdata, headers=headers, timeout=20)
     if response.status_code == 200:
         return response.json()
     else:

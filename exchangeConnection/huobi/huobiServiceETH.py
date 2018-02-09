@@ -5,7 +5,7 @@
 # @Link    : https://www.huobi.com
 # @Version : $Id$
 
-from utilETH import *
+from .utilETH import *
 
 '''
 Market data API

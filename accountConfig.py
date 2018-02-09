@@ -7,13 +7,13 @@ HUOBI = {
         {
             "ACCESS_KEY": "",
             "SECRET_KEY": "",
-            "SERVICE_API": "https://api.huobi.com/apiv3",
+            "SERVICE_API": "https://api.huobi.pro/v1",
         },
     "USD_1":
         {
             "ACCESS_KEY": "",
             "SECRET_KEY": "",
-            "SERVICE_API": "https://api.huobi.com/apiv3",
+            "SERVICE_API": "https://api.huobi.pro/v1/",
         },
 }
 
