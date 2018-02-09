@@ -2,3 +2,4 @@ data/
 log/
 .idea/
 accountConfig.py
+*__pycache__*
